@@ -1,0 +1,492 @@
+{
+  "meta": {
+    "title": "Privacy Policy — Bendgamine",
+    "lang": "en"
+  },
+  "hero": {
+    "title": "Privacy Policy — Bendgamine",
+    "effective": "Effective date: May 25, 2026",
+    "updated": "Last updated: May 25, 2026"
+  },
+  "toc": {
+    "title": "On this page"
+  },
+  "sections": [
+    {
+      "id": "intro",
+      "title": "Introduction",
+      "icon": "",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Bendgamine (\"we,\" \"our,\" or \"us\") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our virtue development application and website (collectively, the \"Service\")."
+        },
+        {
+          "type": "p",
+          "text": "By using Bendgamine, you agree to the collection and use of information in accordance with this policy."
+        }
+      ]
+    },
+    {
+      "id": "collect",
+      "title": "Information We Collect",
+      "blocks": [
+        {
+          "type": "h3",
+          "text": "Personal information you provide"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "Account information",
+              "items": [
+                "Name (first and last)",
+                "Email address",
+                "Password (encrypted)",
+                "Profile picture (optional)",
+                "Timezone and language preferences"
+              ]
+            },
+            {
+              "label": "Virtue development data",
+              "items": [
+                "Projects you create",
+                "Virtues you select and customize",
+                "Daily actions and tracking data",
+                "Self-evaluation scores and notes",
+                "Goal setting and progress data",
+                "Usage patterns and preferences"
+              ]
+            },
+            {
+              "label": "Payment information (Premium users)",
+              "items": [
+                "Billing address",
+                "Payment method information (processed by Stripe)",
+                "Subscription and billing history"
+              ]
+            },
+            {
+              "label": "Communication data",
+              "items": [
+                "Support communications",
+                "Feedback and survey responses",
+                "Newsletter subscriptions (if opted in)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Information collected automatically"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "Usage analytics",
+              "items": [
+                "App usage statistics",
+                "Feature interaction data",
+                "Performance metrics",
+                "Error logs and crash reports"
+              ]
+            },
+            {
+              "label": "Device information",
+              "items": [
+                "Device type and operating system",
+                "Browser type and version",
+                "IP address (anonymized after 30 days)",
+                "General location (country/region level)"
+              ]
+            },
+            {
+              "label": "Cookies and similar technologies",
+              "items": [
+                "Session cookies (essential functionality)",
+                "Preference cookies (settings and language)",
+                "Analytics cookies (with consent)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "use",
+      "title": "How We Use Your Information",
+      "blocks": [
+        {
+          "type": "h3",
+          "text": "Primary purposes"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "Core functionality",
+              "items": [
+                "Provide virtue development tracking and analytics",
+                "Generate personalized AI recommendations",
+                "Sync data across your devices",
+                "Enable progress tracking and reporting"
+              ]
+            },
+            {
+              "label": "Account management",
+              "items": [
+                "Create and maintain your account",
+                "Authenticate access to the Service",
+                "Process subscription payments",
+                "Provide customer support"
+              ]
+            },
+            {
+              "label": "Service improvement",
+              "items": [
+                "Analyze usage patterns to improve features",
+                "Develop new functionality",
+                "Optimize performance and user experience",
+                "Conduct research on virtue development effectiveness"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "AI-powered features"
+        },
+        {
+          "type": "p",
+          "text": "Your virtue tracking data is processed to generate personalized insights. AI analysis helps identify patterns and suggest improvements. Recommendations are based on your individual progress and goals. No personal data is shared with external AI providers beyond anonymized patterns."
+        },
+        {
+          "type": "h3",
+          "text": "Communication"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "Service communications",
+              "items": [
+                "Account-related notifications",
+                "Important service updates",
+                "Security alerts",
+                "Subscription and billing information"
+              ]
+            },
+            {
+              "label": "Optional communications",
+              "items": [
+                "Weekly progress reports (if enabled)",
+                "Educational content about Franklin's method",
+                "Product updates and new features",
+                "Research participation invitations"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "legal-basis",
+      "title": "Legal Basis for Processing (GDPR)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "We process your personal data based on:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Contract performance: account management, service delivery, payment processing",
+            "Legitimate interest: service improvement, analytics, AI recommendations",
+            "Consent: marketing communications, optional features, analytics cookies",
+            "Legal obligation: tax records, legal compliance, data protection"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sharing",
+      "title": "Information Sharing and Disclosure",
+      "blocks": [
+        {
+          "type": "h3",
+          "text": "We do not sell your data"
+        },
+        {
+          "type": "p",
+          "text": "Bendgamine does not sell, trade, or rent your personal information to third parties."
+        },
+        {
+          "type": "h3",
+          "text": "Limited sharing for service delivery"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Hosting: AWS/DigitalOcean for secure data storage",
+            "Payments: Stripe for payment processing",
+            "Email: SendGrid for transactional emails",
+            "Analytics: Self-hosted analytics tools only",
+            "AI services: OpenAI for recommendation generation (anonymized data only)"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "All service providers are contractually bound to protect your data and use it only for specified purposes."
+        },
+        {
+          "type": "h3",
+          "text": "Legal requirements"
+        },
+        {
+          "type": "p",
+          "text": "We may disclose your information if required by law, court order, or government agency, or to protect our legal rights, investigate fraud or security issues, protect user safety, or comply with legal obligations."
+        },
+        {
+          "type": "h3",
+          "text": "Business transfers"
+        },
+        {
+          "type": "p",
+          "text": "In the event of a merger, acquisition, or sale of assets, your information may be transferred as part of the business assets, subject to the same privacy protections."
+        }
+      ]
+    },
+    {
+      "id": "transfers",
+      "title": "International Data Transfers",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Primary data location: European Union (GDPR compliance)",
+            "Secondary processing: United States (with appropriate safeguards)",
+            "Safeguards: Standard Contractual Clauses, adequacy decisions, or equivalent protections"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "security",
+      "title": "Data Security",
+      "blocks": [
+        {
+          "type": "h3",
+          "text": "Technical safeguards"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Data encrypted in transit (TLS 1.3) and at rest (AES-256)",
+            "Database encryption for sensitive information",
+            "Multi-factor authentication and role-based access for admins",
+            "Regular security audits, penetration testing, and vulnerability scanning"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Organizational safeguards"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Data minimization: we collect only necessary information",
+            "Staff training on privacy and security",
+            "Incident response procedures for data breaches",
+            "Privacy by design in product development"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rights",
+      "title": "Your Privacy Rights",
+      "blocks": [
+        {
+          "type": "h3",
+          "text": "GDPR rights (EU residents)"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Access: request a copy of your personal data",
+            "Rectification: correct inaccurate or incomplete data",
+            "Erasure: request deletion (\"right to be forgotten\")",
+            "Portability: receive data in a machine-readable format",
+            "Restriction: limit how we process your data",
+            "Objection: object to processing based on legitimate interests",
+            "Withdraw consent: remove consent for optional processing"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "California privacy rights (CCPA)"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Know what personal information we collect and how it is used",
+            "Delete: request deletion of your personal information",
+            "Opt-out of sale of personal information (we do not sell data)",
+            "Non-discrimination: equal service regardless of privacy choices"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "How to exercise your rights"
+        },
+        {
+          "type": "list",
+          "items": [
+            "In-app: use privacy settings and data export features",
+            "Email: privacy@bendgamine.com",
+            "Response time: within 30 days (GDPR) or 45 days (CCPA)",
+            "We may verify your identity for security"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "retention",
+      "title": "Data Retention",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Account data: retained while your account is active",
+            "Virtue development data: retained for historical tracking and analytics",
+            "Inactive accounts: deleted after 3 years of inactivity",
+            "Support communications: retained for 2 years",
+            "Analytics data: anonymized and aggregated, retained for 5 years",
+            "Legal requirements: some data may be retained longer for compliance"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Deletion process"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Removed from active systems within 30 days",
+            "Removed from backups within 90 days",
+            "Anonymized in analytics within 30 days"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "children",
+      "title": "Children's Privacy",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Bendgamine is not intended for children under 16 (EU) or 13 (US). We do not knowingly collect personal information from children. If we become aware that a child has provided personal information, we will delete it immediately."
+        }
+      ]
+    },
+    {
+      "id": "cookies",
+      "title": "Cookies and Tracking",
+      "blocks": [
+        {
+          "type": "h3",
+          "text": "Essential cookies"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Authentication: keep you logged in",
+            "Security: protect against fraud",
+            "Functionality: remember your preferences"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Optional cookies (with consent)"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Analytics: understand how the Service is used",
+            "Performance: optimize loading times and functionality"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "You can control cookies through browser settings, our cookie preference center, and opt-out mechanisms for analytics."
+        }
+      ]
+    },
+    {
+      "id": "changes",
+      "title": "Changes to This Policy",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "We may update this Privacy Policy to reflect changes in our practices, legal or regulatory requirements, or new features and services."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Email notification for material changes",
+            "In-app notification",
+            "Updated \"Last modified\" date",
+            "30-day notice period for significant changes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "title": "Contact Information",
+      "blocks": [
+        {
+          "type": "contact",
+          "lines": [
+            "<strong>Privacy questions</strong>",
+            "Email: <a href=\"mailto:privacy@bendgamine.com\">privacy@bendgamine.com</a> (response within 48 hours)",
+            "<strong>Data Protection Officer (EU)</strong>",
+            "Email: <a href=\"mailto:dpo@bendgamine.com\">dpo@bendgamine.com</a>",
+            "<strong>Supervisory authority</strong>",
+            "EU residents may lodge a complaint with their local data protection authority.",
+            "<strong>Company</strong>",
+            "Bendgamine Inc. — [Company address] — [Registration details]"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "transparency",
+      "title": "Transparency Report",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "We believe in transparency about our privacy practices. Annual figures (to be published):"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Government data requests: —",
+            "User data requests: —",
+            "Account deletions: —",
+            "Data breaches: None reported",
+            "Affected users: —",
+            "Average resolution time: —"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "If you have questions about any section, contact us at privacy@bendgamine.com. Your privacy is fundamental to your personal growth journey — we are committed to protecting it every step of the way."
+        }
+      ]
+    }
+  ],
+  "footer": "© Bendgamine. All rights reserved."
+}
