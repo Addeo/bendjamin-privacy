@@ -1,0 +1,503 @@
+{
+  "meta": {
+    "title": "Kebijakan Privasi — Bendgamine",
+    "lang": "id"
+  },
+  "hero": {
+    "title": "Kebijakan Privasi — Bendgamine",
+    "effective": "Tanggal efektif: 25 Mei 2026",
+    "updated": "Terakhir diperbarui: 25 Mei 2026"
+  },
+  "toc": {
+    "title": "Di halaman ini"
+  },
+  "sections": [
+    {
+      "id": "intro",
+      "title": "Perkenalan",
+      "icon": "",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Bendgamine (\"kami\", \"milik kami\", atau \"kami\") berkomitmen untuk melindungi privasi Anda. Kebijakan Privasi ini menjelaskan bagaimana kami mengumpulkan, menggunakan, mengungkapkan, dan menjaga informasi Anda ketika Anda menggunakan aplikasi dan situs web pengembangan kebajikan kami (secara kolektif disebut \"Layanan\")."
+        },
+        {
+          "type": "p",
+          "text": "Dengan menggunakan Bendgamine, Anda menyetujui pengumpulan dan penggunaan informasi sesuai dengan kebijakan ini."
+        }
+      ]
+    },
+    {
+      "id": "collect",
+      "title": "Informasi yang Kami Kumpulkan",
+      "blocks": [
+        {
+          "type": "h3",
+          "text": "Informasi pribadi yang Anda berikan"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "Informasi akun",
+              "items": [
+                "Nama (depan dan belakang)",
+                "Alamat email",
+                "Kata sandi (terenkripsi)",
+                "Gambar profil (opsional)",
+                "Preferensi zona waktu dan bahasa"
+              ]
+            },
+            {
+              "label": "Data pengembangan kebajikan",
+              "items": [
+                "Proyek yang Anda buat",
+                "Kebajikan yang Anda pilih dan sesuaikan",
+                "Tindakan harian dan data pelacakan",
+                "Skor dan catatan evaluasi diri",
+                "Penetapan tujuan dan data kemajuan",
+                "Pola penggunaan dan preferensi"
+              ]
+            },
+            {
+              "label": "Informasi pembayaran (Pengguna premium)",
+              "items": [
+                "Alamat penagihan",
+                "Informasi metode pembayaran (diproses oleh Stripe)",
+                "Riwayat langganan dan penagihan"
+              ]
+            },
+            {
+              "label": "Data komunikasi",
+              "items": [
+                "Mendukung komunikasi",
+                "Umpan balik dan tanggapan survei",
+                "Langganan buletin (jika ikut serta)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Informasi dikumpulkan secara otomatis"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "Analisis penggunaan",
+              "items": [
+                "Statistik penggunaan aplikasi",
+                "Menampilkan data interaksi",
+                "Metrik kinerja",
+                "Log kesalahan dan laporan kerusakan"
+              ]
+            },
+            {
+              "label": "Informasi perangkat",
+              "items": [
+                "Jenis perangkat dan sistem operasi",
+                "Jenis dan versi peramban",
+                "Alamat IP (anonimkan setelah 30 hari)",
+                "Lokasi umum (tingkat negara/wilayah)"
+              ]
+            },
+            {
+              "label": "Cookie dan teknologi serupa",
+              "items": [
+                "Cookie sesi (fungsi penting)",
+                "Cookie preferensi (pengaturan dan bahasa)",
+                "Cookie Analytics (dengan persetujuan)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "use",
+      "title": "Bagaimana Kami Menggunakan Informasi Anda",
+      "blocks": [
+        {
+          "type": "h3",
+          "text": "Tujuan utama"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "Fungsionalitas inti",
+              "items": [
+                "Menyediakan pelacakan dan analisis pengembangan kebajikan",
+                "Hasilkan rekomendasi AI yang dipersonalisasi",
+                "Sinkronkan data di seluruh perangkat Anda",
+                "Aktifkan pelacakan dan pelaporan kemajuan"
+              ]
+            },
+            {
+              "label": "Manajemen akun",
+              "items": [
+                "Buat dan pelihara akun Anda",
+                "Otentikasi akses ke Layanan",
+                "Memproses pembayaran berlangganan",
+                "Memberikan dukungan pelanggan"
+              ]
+            },
+            {
+              "label": "Peningkatan layanan",
+              "items": [
+                "Analisis pola penggunaan untuk meningkatkan fitur",
+                "Kembangkan fungsionalitas baru",
+                "Optimalkan kinerja dan pengalaman pengguna",
+                "Melakukan penelitian tentang efektivitas pengembangan kebajikan"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Fitur yang didukung AI"
+        },
+        {
+          "type": "p",
+          "text": "Data pelacakan kebajikan Anda diproses untuk menghasilkan wawasan yang dipersonalisasi. Analisis AI membantu mengidentifikasi pola dan menyarankan perbaikan. Rekomendasi didasarkan pada kemajuan dan tujuan individu Anda. Tidak ada data pribadi yang dibagikan kepada penyedia AI eksternal selain pola anonim."
+        },
+        {
+          "type": "h3",
+          "text": "Komunikasi"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "Komunikasi layanan",
+              "items": [
+                "Notifikasi terkait akun",
+                "Pembaruan layanan penting",
+                "Peringatan keamanan",
+                "Informasi berlangganan dan penagihan"
+              ]
+            },
+            {
+              "label": "Komunikasi opsional",
+              "items": [
+                "Laporan kemajuan mingguan (jika diaktifkan)",
+                "Konten pendidikan tentang metode Franklin",
+                "Pembaruan produk dan fitur baru",
+                "Undangan partisipasi penelitian"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "legal-basis",
+      "title": "Dasar Hukum Pemrosesan (GDPR)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Kami memproses data pribadi Anda berdasarkan:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Kinerja kontrak: manajemen akun, pemberian layanan, pemrosesan pembayaran",
+            "Kepentingan yang sah: peningkatan layanan, analitik, rekomendasi AI",
+            "Persetujuan: komunikasi pemasaran, fitur opsional, cookie analitik",
+            "Kewajiban hukum: catatan pajak, kepatuhan hukum, perlindungan data"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sharing",
+      "title": "Pembagian dan Pengungkapan Informasi",
+      "blocks": [
+        {
+          "type": "h3",
+          "text": "Kami tidak menjual data Anda"
+        },
+        {
+          "type": "p",
+          "text": "Bendgamine tidak menjual, memperdagangkan, atau menyewakan informasi pribadi Anda kepada pihak ketiga."
+        },
+        {
+          "type": "h3",
+          "text": "Pembagian terbatas untuk pemberian layanan"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Hosting: AWS/DigitalOcean untuk penyimpanan data yang aman",
+            "Pembayaran: Stripe untuk pemrosesan pembayaran",
+            "Email: SendGrid untuk email transaksional",
+            "Analisis: Hanya alat analisis yang dihosting sendiri",
+            "Layanan AI: OpenAI untuk pembuatan rekomendasi (hanya data anonim)"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Semua penyedia layanan terikat kontrak untuk melindungi data Anda dan menggunakannya hanya untuk tujuan tertentu."
+        },
+        {
+          "type": "h3",
+          "text": "Persyaratan hukum"
+        },
+        {
+          "type": "p",
+          "text": "Kami dapat mengungkapkan informasi Anda jika diwajibkan oleh hukum, perintah pengadilan, atau lembaga pemerintah, atau untuk melindungi hak hukum kami, menyelidiki masalah penipuan atau keamanan, melindungi keselamatan pengguna, atau mematuhi kewajiban hukum."
+        },
+        {
+          "type": "h3",
+          "text": "Transfer bisnis"
+        },
+        {
+          "type": "p",
+          "text": "Jika terjadi merger, akuisisi, atau penjualan aset, informasi Anda dapat ditransfer sebagai bagian dari aset bisnis, dengan tunduk pada perlindungan privasi yang sama."
+        }
+      ]
+    },
+    {
+      "id": "transfers",
+      "title": "Transfer Data Internasional",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Lokasi data primer: Uni Eropa (kepatuhan GDPR)",
+            "Pemrosesan sekunder: Amerika Serikat (dengan pengamanan yang sesuai)",
+            "Perlindungan: Klausul Kontrak Standar, keputusan kecukupan, atau perlindungan setara"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "security",
+      "title": "Keamanan Data",
+      "blocks": [
+        {
+          "type": "h3",
+          "text": "Perlindungan teknis"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Data dienkripsi saat transit (TLS 1.3) dan saat istirahat (AES-256)",
+            "Enkripsi basis data untuk informasi sensitif",
+            "Otentikasi multi-faktor dan akses berbasis peran untuk admin",
+            "Audit keamanan rutin, pengujian penetrasi, dan pemindaian kerentanan"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Perlindungan organisasi"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Minimalkan data: kami hanya mengumpulkan informasi yang diperlukan",
+            "Pelatihan staf tentang privasi dan keamanan",
+            "Prosedur respons insiden untuk pelanggaran data",
+            "Privasi berdasarkan desain dalam pengembangan produk"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rights",
+      "title": "Hak Privasi Anda",
+      "blocks": [
+        {
+          "type": "h3",
+          "text": "Hak GDPR (penduduk UE)"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Akses: meminta salinan data pribadi Anda",
+            "Perbaikan: memperbaiki data yang tidak akurat atau tidak lengkap",
+            "Penghapusan: meminta penghapusan (\"hak untuk dilupakan\")",
+            "Portabilitas: menerima data dalam format yang dapat dibaca mesin",
+            "Pembatasan: membatasi cara kami memproses data Anda",
+            "Keberatan: menolak pemrosesan berdasarkan kepentingan yang sah",
+            "Tarik persetujuan: hapus persetujuan untuk pemrosesan opsional"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Hak privasi California (CCPA)"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Ketahui informasi pribadi apa yang kami kumpulkan dan bagaimana informasi tersebut digunakan",
+            "Hapus: meminta penghapusan informasi pribadi Anda",
+            "Tidak ikut serta dalam penjualan informasi pribadi (kami tidak menjual data)",
+            "Non-diskriminasi: layanan yang setara tanpa memandang pilihan privasi"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Bagaimana menggunakan hak Anda"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Dalam aplikasi: gunakan pengaturan privasi dan fitur ekspor data",
+            "Surel: privacy@bendgamine.com",
+            "Waktu respons: dalam 30 hari (GDPR) atau 45 hari (CCPA)",
+            "Kami dapat memverifikasi identitas Anda demi keamanan"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "retention",
+      "title": "Retensi Data",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Data akun: disimpan saat akun Anda aktif",
+            "Data pengembangan kebajikan: disimpan untuk pelacakan historis dan analisis",
+            "Akun tidak aktif: dihapus setelah 3 tahun tidak aktif",
+            "Komunikasi dukungan: dipertahankan selama 2 tahun",
+            "Data analitik: dianonimkan dan dikumpulkan, disimpan selama 5 tahun",
+            "Persyaratan hukum: beberapa data mungkin disimpan lebih lama untuk kepatuhan"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Proses penghapusan"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Dihapus dari sistem aktif dalam waktu 30 hari",
+            "Dihapus dari cadangan dalam waktu 90 hari",
+            "Dianonimkan dalam analitik dalam 30 hari"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "children",
+      "title": "Privasi Anak",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Bendgamine tidak ditujukan untuk anak di bawah 16 tahun (UE) atau 13 tahun (AS). Kami tidak dengan sengaja mengumpulkan informasi pribadi dari anak-anak. Jika kami mengetahui bahwa seorang anak telah memberikan informasi pribadi, kami akan segera menghapusnya."
+        }
+      ]
+    },
+    {
+      "id": "cookies",
+      "title": "Cookie dan Pelacakan",
+      "blocks": [
+        {
+          "type": "h3",
+          "text": "Kue-kue penting"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Otentikasi: membuat Anda tetap masuk",
+            "Keamanan: melindungi dari penipuan",
+            "Fungsionalitas: ingat preferensi Anda"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Cookie opsional (dengan persetujuan)"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Analisis: memahami bagaimana Layanan digunakan",
+            "Kinerja: mengoptimalkan waktu pemuatan dan fungsionalitas"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Anda dapat mengontrol cookie melalui pengaturan browser, pusat preferensi cookie kami, dan mekanisme opt-out untuk analisis."
+        }
+      ]
+    },
+    {
+      "id": "changes",
+      "title": "Perubahan pada Kebijakan Ini",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Kami dapat memperbarui Kebijakan Privasi ini untuk mencerminkan perubahan dalam praktik kami, persyaratan hukum atau peraturan, atau fitur dan layanan baru."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Pemberitahuan email untuk perubahan materi",
+            "Notifikasi dalam aplikasi",
+            "Tanggal \"Terakhir diubah\" diperbarui",
+            "Periode pemberitahuan 30 hari untuk perubahan signifikan"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "title": "Informasi Kontak",
+      "blocks": [
+        {
+          "type": "contact",
+          "entries": [
+            {
+              "heading": "Pertanyaan privasi",
+              "emailLabel": "E-mail",
+              "email": "privacy@bendgamine.com",
+              "note": "respon dalam waktu 48 jam"
+            },
+            {
+              "heading": "Petugas Perlindungan Data (UE)",
+              "emailLabel": "E-mail",
+              "email": "dpo@bendgamine.com"
+            },
+            {
+              "heading": "Otoritas pengawas",
+              "text": "Penduduk UE dapat mengajukan keluhan kepada otoritas perlindungan data setempat."
+            },
+            {
+              "heading": "Perusahaan",
+              "text": "Bendgamine Inc. — [Alamat perusahaan] — [Detail Pendaftaran]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "transparency",
+      "title": "Laporan Transparansi",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Kami percaya pada transparansi tentang praktik privasi kami. Angka tahunan (akan dipublikasikan):"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Permintaan data pemerintah: —",
+            "Permintaan data pengguna: —",
+            "Penghapusan akun: —",
+            "Pelanggaran data: Tidak ada yang dilaporkan",
+            "Pengguna yang terkena dampak: —",
+            "Waktu resolusi rata-rata: —"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Jika Anda memiliki pertanyaan tentang bagian mana pun, hubungi kami di privacy@bendgamine.com. Privasi Anda sangat penting bagi perjalanan pertumbuhan pribadi Anda — kami berkomitmen untuk melindunginya di setiap langkah."
+        }
+      ]
+    }
+  ],
+  "footer": "© Bendgamine. Semua hak dilindungi undang-undang."
+}

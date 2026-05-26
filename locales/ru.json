@@ -15,6 +15,7 @@
     {
       "id": "intro",
       "title": "Введение",
+      "icon": "",
       "blocks": [
         {
           "type": "p",
@@ -448,15 +449,26 @@
       "blocks": [
         {
           "type": "contact",
-          "lines": [
-            "<strong>Вопросы по конфиденциальности</strong>",
-            "Email: <a href=\"mailto:privacy@bendgamine.com\">privacy@bendgamine.com</a> (ответ в течение 48 часов)",
-            "<strong>Офицер по защите данных (ЕС)</strong>",
-            "Email: <a href=\"mailto:dpo@bendgamine.com\">dpo@bendgamine.com</a>",
-            "<strong>Надзорный орган</strong>",
-            "Резиденты ЕС могут подать жалобу в местный орган по защите данных.",
-            "<strong>Компания</strong>",
-            "Bendgamine Inc. — [Адрес компании] — [Реквизиты регистрации]"
+          "entries": [
+            {
+              "heading": "Вопросы по конфиденциальности",
+              "emailLabel": "Email",
+              "email": "privacy@bendgamine.com",
+              "note": "ответ в течение 48 часов"
+            },
+            {
+              "heading": "Офицер по защите данных (ЕС)",
+              "emailLabel": "Email",
+              "email": "dpo@bendgamine.com"
+            },
+            {
+              "heading": "Надзорный орган",
+              "text": "Резиденты ЕС могут подать жалобу в местный орган по защите данных."
+            },
+            {
+              "heading": "Компания",
+              "text": "Bendgamine Inc. — [Адрес компании] — [Реквизиты регистрации]"
+            }
           ]
         }
       ]

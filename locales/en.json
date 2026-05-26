@@ -449,15 +449,26 @@
       "blocks": [
         {
           "type": "contact",
-          "lines": [
-            "<strong>Privacy questions</strong>",
-            "Email: <a href=\"mailto:privacy@bendgamine.com\">privacy@bendgamine.com</a> (response within 48 hours)",
-            "<strong>Data Protection Officer (EU)</strong>",
-            "Email: <a href=\"mailto:dpo@bendgamine.com\">dpo@bendgamine.com</a>",
-            "<strong>Supervisory authority</strong>",
-            "EU residents may lodge a complaint with their local data protection authority.",
-            "<strong>Company</strong>",
-            "Bendgamine Inc. — [Company address] — [Registration details]"
+          "entries": [
+            {
+              "heading": "Privacy questions",
+              "emailLabel": "Email",
+              "email": "privacy@bendgamine.com",
+              "note": "response within 48 hours"
+            },
+            {
+              "heading": "Data Protection Officer (EU)",
+              "emailLabel": "Email",
+              "email": "dpo@bendgamine.com"
+            },
+            {
+              "heading": "Supervisory authority",
+              "text": "EU residents may lodge a complaint with their local data protection authority."
+            },
+            {
+              "heading": "Company",
+              "text": "Bendgamine Inc. — [Company address] — [Registration details]"
+            }
           ]
         }
       ]

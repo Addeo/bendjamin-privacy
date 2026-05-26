@@ -70,36 +70,44 @@ a:hover {
   color: var(--accent);
 }
 
-.lang-switch {
-  display: flex;
-  gap: 0.25rem;
+.lang-picker select {
+  font: inherit;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text);
   background: var(--surface);
   border: 1px solid var(--border);
-  border-radius: 999px;
-  padding: 0.2rem;
+  border-radius: var(--radius);
+  padding: 0.45rem 2rem 0.45rem 0.75rem;
   box-shadow: var(--shadow);
-}
-
-.lang-switch button {
-  border: none;
-  background: transparent;
-  color: var(--muted);
-  font: inherit;
-  font-size: 0.875rem;
-  font-weight: 600;
-  padding: 0.35rem 0.85rem;
-  border-radius: 999px;
   cursor: pointer;
-  transition: background 0.15s, color 0.15s;
+  max-width: min(12rem, 45vw);
 }
 
-.lang-switch button:hover {
-  color: var(--text);
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 
-.lang-switch button.active {
-  background: var(--accent);
-  color: #fff;
+[dir='rtl'] .header-inner {
+  flex-direction: row-reverse;
+}
+
+[dir='rtl'] .toc ul,
+[dir='rtl'] section.policy-section ul {
+  padding-right: 1.25rem;
+  padding-left: 0;
+}
+
+[dir='rtl'] .lang-picker select {
+  padding: 0.45rem 0.75rem 0.45rem 2rem;
 }
 
 main {

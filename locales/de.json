@@ -1,0 +1,503 @@
+{
+  "meta": {
+    "title": "Datenschutzrichtlinie – Bendgamine",
+    "lang": "de"
+  },
+  "hero": {
+    "title": "Datenschutzrichtlinie – Bendgamine",
+    "effective": "Datum des Inkrafttretens: 25. Mai 2026",
+    "updated": "Letzte Aktualisierung: 25. Mai 2026"
+  },
+  "toc": {
+    "title": "Auf dieser Seite"
+  },
+  "sections": [
+    {
+      "id": "intro",
+      "title": "Einführung",
+      "icon": "",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Bendgamine („wir“, „unser“ oder „uns“) verpflichtet sich, Ihre Privatsphäre zu schützen. In dieser Datenschutzrichtlinie wird erläutert, wie wir Ihre Daten erfassen, verwenden, offenlegen und schützen, wenn Sie unsere Tugendentwicklungsanwendung und Website (zusammen der „Dienst“) nutzen."
+        },
+        {
+          "type": "p",
+          "text": "Durch die Nutzung von Bendgamine stimmen Sie der Erfassung und Nutzung von Informationen gemäß dieser Richtlinie zu."
+        }
+      ]
+    },
+    {
+      "id": "collect",
+      "title": "Informationen, die wir sammeln",
+      "blocks": [
+        {
+          "type": "h3",
+          "text": "Persönliche Informationen, die Sie bereitstellen"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "Kontoinformationen",
+              "items": [
+                "Name (Vor- und Nachname)",
+                "E-Mail-Adresse",
+                "Passwort (verschlüsselt)",
+                "Profilbild (optional)",
+                "Zeitzonen- und Spracheinstellungen"
+              ]
+            },
+            {
+              "label": "Daten zur Tugendentwicklung",
+              "items": [
+                "Projekte, die Sie erstellen",
+                "Tugenden, die Sie auswählen und anpassen",
+                "Tägliche Aktionen und Tracking-Daten",
+                "Selbstbewertungsergebnisse und Notizen",
+                "Zielsetzung und Fortschrittsdaten",
+                "Nutzungsmuster und Vorlieben"
+              ]
+            },
+            {
+              "label": "Zahlungsinformationen (Premium-Benutzer)",
+              "items": [
+                "Rechnungsadresse",
+                "Informationen zur Zahlungsmethode (von Stripe verarbeitet)",
+                "Abonnement- und Rechnungsverlauf"
+              ]
+            },
+            {
+              "label": "Kommunikationsdaten",
+              "items": [
+                "Unterstützen Sie die Kommunikation",
+                "Feedback und Umfrageantworten",
+                "Newsletter-Abonnements (falls aktiviert)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Automatisch gesammelte Informationen"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "Nutzungsanalyse",
+              "items": [
+                "Statistiken zur App-Nutzung",
+                "Feature-Interaktionsdaten",
+                "Leistungskennzahlen",
+                "Fehlerprotokolle und Absturzberichte"
+              ]
+            },
+            {
+              "label": "Geräteinformationen",
+              "items": [
+                "Gerätetyp und Betriebssystem",
+                "Browsertyp und -version",
+                "IP-Adresse (anonymisiert nach 30 Tagen)",
+                "Allgemeiner Standort (Länder-/Regionsebene)"
+              ]
+            },
+            {
+              "label": "Cookies und ähnliche Technologien",
+              "items": [
+                "Sitzungscookies (wesentliche Funktionalität)",
+                "Präferenz-Cookies (Einstellungen und Sprache)",
+                "Analyse-Cookies (mit Zustimmung)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "use",
+      "title": "Wie wir Ihre Informationen verwenden",
+      "blocks": [
+        {
+          "type": "h3",
+          "text": "Hauptzwecke"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "Kernfunktionalität",
+              "items": [
+                "Bieten Sie Tugendentwicklungsverfolgung und -analysen",
+                "Generieren Sie personalisierte KI-Empfehlungen",
+                "Synchronisieren Sie Daten auf Ihren Geräten",
+                "Aktivieren Sie Fortschrittsverfolgung und Berichterstattung"
+              ]
+            },
+            {
+              "label": "Kontoverwaltung",
+              "items": [
+                "Erstellen und pflegen Sie Ihr Konto",
+                "Authentifizieren Sie den Zugriff auf den Dienst",
+                "Abonnementzahlungen verarbeiten",
+                "Bieten Sie Kundensupport"
+              ]
+            },
+            {
+              "label": "Serviceverbesserung",
+              "items": [
+                "Analysieren Sie Nutzungsmuster, um Funktionen zu verbessern",
+                "Entwickeln Sie neue Funktionen",
+                "Optimieren Sie Leistung und Benutzererfahrung",
+                "Führen Sie Untersuchungen zur Wirksamkeit der Tugendentwicklung durch"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "KI-gestützte Funktionen"
+        },
+        {
+          "type": "p",
+          "text": "Ihre Tugendverfolgungsdaten werden verarbeitet, um personalisierte Erkenntnisse zu generieren. KI-Analysen helfen dabei, Muster zu erkennen und Verbesserungen vorzuschlagen. Empfehlungen basieren auf Ihren individuellen Fortschritten und Zielen. Über anonymisierte Muster hinaus werden keine personenbezogenen Daten an externe KI-Anbieter weitergegeben."
+        },
+        {
+          "type": "h3",
+          "text": "Kommunikation"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "Servicekommunikation",
+              "items": [
+                "Kontobezogene Benachrichtigungen",
+                "Wichtige Service-Updates",
+                "Sicherheitswarnungen",
+                "Abonnement- und Rechnungsinformationen"
+              ]
+            },
+            {
+              "label": "Optionale Kommunikation",
+              "items": [
+                "Wöchentliche Fortschrittsberichte (falls aktiviert)",
+                "Lehrinhalte über Franklins Methode",
+                "Produktaktualisierungen und neue Funktionen",
+                "Einladungen zur Forschungsteilnahme"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "legal-basis",
+      "title": "Rechtsgrundlage für die Verarbeitung (DSGVO)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Wir verarbeiten Ihre personenbezogenen Daten auf Grundlage von:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Vertragserfüllung: Kontoführung, Leistungserbringung, Zahlungsabwicklung",
+            "Berechtigtes Interesse: Serviceverbesserung, Analysen, KI-Empfehlungen",
+            "Einwilligung: Marketingkommunikation, optionale Funktionen, Analyse-Cookies",
+            "Rechtliche Verpflichtung: Steuerunterlagen, Einhaltung gesetzlicher Vorschriften, Datenschutz"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sharing",
+      "title": "Informationsaustausch und Offenlegung",
+      "blocks": [
+        {
+          "type": "h3",
+          "text": "Wir verkaufen Ihre Daten nicht"
+        },
+        {
+          "type": "p",
+          "text": "Bendgamine verkauft, tauscht oder vermietet Ihre persönlichen Daten nicht an Dritte."
+        },
+        {
+          "type": "h3",
+          "text": "Begrenzte Weitergabe für die Servicebereitstellung"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Hosting: AWS/DigitalOcean für sichere Datenspeicherung",
+            "Zahlungen: Stripe zur Zahlungsabwicklung",
+            "E-Mail: SendGrid für Transaktions-E-Mails",
+            "Analytics: Nur selbst gehostete Analysetools",
+            "KI-Dienste: OpenAI zur Empfehlungsgenerierung (nur anonymisierte Daten)"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Alle Dienstleister sind vertraglich dazu verpflichtet, Ihre Daten zu schützen und diese nur für bestimmte Zwecke zu verwenden."
+        },
+        {
+          "type": "h3",
+          "text": "Gesetzliche Anforderungen"
+        },
+        {
+          "type": "p",
+          "text": "Wir können Ihre Daten offenlegen, wenn dies gesetzlich, durch einen Gerichtsbeschluss oder eine Regierungsbehörde erforderlich ist, oder um unsere gesetzlichen Rechte zu schützen, Betrug oder Sicherheitsprobleme zu untersuchen, die Sicherheit der Benutzer zu schützen oder gesetzlichen Verpflichtungen nachzukommen."
+        },
+        {
+          "type": "h3",
+          "text": "Unternehmensübertragungen"
+        },
+        {
+          "type": "p",
+          "text": "Im Falle einer Fusion, eines Erwerbs oder eines Verkaufs von Vermögenswerten können Ihre Daten als Teil des Unternehmensvermögens übertragen werden, vorbehaltlich der gleichen Datenschutzbestimmungen."
+        }
+      ]
+    },
+    {
+      "id": "transfers",
+      "title": "Internationale Datenübertragungen",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Primärer Datenstandort: Europäische Union (DSGVO-Konformität)",
+            "Sekundärverarbeitung: Vereinigte Staaten (mit angemessenen Garantien)",
+            "Schutzmaßnahmen: Standardvertragsklauseln, Angemessenheitsentscheidungen oder gleichwertige Schutzmaßnahmen"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "security",
+      "title": "Datensicherheit",
+      "blocks": [
+        {
+          "type": "h3",
+          "text": "Technische Sicherheitsmaßnahmen"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Daten verschlüsselt während der Übertragung (TLS 1.3) und im Ruhezustand (AES-256)",
+            "Datenbankverschlüsselung für sensible Informationen",
+            "Multi-Faktor-Authentifizierung und rollenbasierter Zugriff für Administratoren",
+            "Regelmäßige Sicherheitsüberprüfungen, Penetrationstests und Schwachstellenscans"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Organisatorische Absicherungen"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Datenminimierung: Wir sammeln nur die notwendigen Informationen",
+            "Mitarbeiterschulung zu Datenschutz und Sicherheit",
+            "Verfahren zur Reaktion auf Vorfälle bei Datenschutzverletzungen",
+            "Privacy by Design in der Produktentwicklung"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rights",
+      "title": "Ihre Datenschutzrechte",
+      "blocks": [
+        {
+          "type": "h3",
+          "text": "DSGVO-Rechte (EU-Bürger)"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Zugriff: Fordern Sie eine Kopie Ihrer persönlichen Daten an",
+            "Berichtigung: Berichtigung unrichtiger oder unvollständiger Daten",
+            "Löschung: Löschung beantragen („Recht auf Vergessenwerden“)",
+            "Portabilität: Daten in einem maschinenlesbaren Format empfangen",
+            "Einschränkung: Beschränken Sie die Art und Weise, wie wir Ihre Daten verarbeiten",
+            "Einspruch: Widerspruch gegen die Verarbeitung aufgrund berechtigter Interessen",
+            "Einwilligung widerrufen: Einwilligung zur optionalen Verarbeitung entfernen"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Datenschutzrechte in Kalifornien (CCPA)"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Erfahren Sie, welche persönlichen Daten wir sammeln und wie sie verwendet werden",
+            "Löschen: Fordern Sie die Löschung Ihrer persönlichen Daten an",
+            "Opt-out vom Verkauf personenbezogener Daten (wir verkaufen keine Daten)",
+            "Nichtdiskriminierung: Gleicher Service unabhängig von Datenschutzoptionen"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "So üben Sie Ihre Rechte aus"
+        },
+        {
+          "type": "list",
+          "items": [
+            "In-App: Datenschutzeinstellungen und Datenexportfunktionen nutzen",
+            "E-Mail: Privacy@bendgamine.com",
+            "Reaktionszeit: innerhalb von 30 Tagen (DSGVO) oder 45 Tagen (CCPA)",
+            "Aus Sicherheitsgründen können wir Ihre Identität überprüfen"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "retention",
+      "title": "Datenaufbewahrung",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Kontodaten: werden gespeichert, solange Ihr Konto aktiv ist",
+            "Daten zur Tugendentwicklung: werden zur historischen Nachverfolgung und Analyse aufbewahrt",
+            "Inaktive Konten: nach 3 Jahren Inaktivität gelöscht",
+            "Support-Kommunikation: 2 Jahre lang aufbewahrt",
+            "Analysedaten: anonymisiert und aggregiert, 5 Jahre lang aufbewahrt",
+            "Gesetzliche Anforderungen: Einige Daten können aus Compliance-Gründen länger gespeichert werden"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Löschvorgang"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Wird innerhalb von 30 Tagen aus aktiven Systemen entfernt",
+            "Wird innerhalb von 90 Tagen aus den Backups entfernt",
+            "Innerhalb von 30 Tagen in Analytics anonymisiert"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "children",
+      "title": "Privatsphäre von Kindern",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Bendgamine ist nicht für Kinder unter 16 (EU) oder 13 (USA) bestimmt. Wir erfassen wissentlich keine personenbezogenen Daten von Kindern. Sollten wir Kenntnis davon erlangen, dass ein Kind personenbezogene Daten angegeben hat, werden wir diese unverzüglich löschen."
+        }
+      ]
+    },
+    {
+      "id": "cookies",
+      "title": "Cookies und Tracking",
+      "blocks": [
+        {
+          "type": "h3",
+          "text": "Unverzichtbare Cookies"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Authentifizierung: Bleiben Sie angemeldet",
+            "Sicherheit: Schutz vor Betrug",
+            "Funktionalität: Merken Sie sich Ihre Vorlieben"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Optionale Cookies (mit Einwilligung)"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Analytics: Verstehen Sie, wie der Service genutzt wird",
+            "Leistung: Ladezeiten und Funktionalität optimieren"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Sie können Cookies über die Browsereinstellungen, unser Cookie-Einstellungscenter und Opt-out-Mechanismen für Analysen steuern."
+        }
+      ]
+    },
+    {
+      "id": "changes",
+      "title": "Änderungen an dieser Richtlinie",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Wir können diese Datenschutzrichtlinie aktualisieren, um Änderungen in unseren Praktiken, rechtlichen oder behördlichen Anforderungen oder neuen Funktionen und Diensten Rechnung zu tragen."
+        },
+        {
+          "type": "list",
+          "items": [
+            "E-Mail-Benachrichtigung bei wesentlichen Änderungen",
+            "In-App-Benachrichtigung",
+            "Aktualisiertes Datum „Letzte Änderung“.",
+            "30-tägige Ankündigungsfrist für wesentliche Änderungen"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "title": "Kontaktinformationen",
+      "blocks": [
+        {
+          "type": "contact",
+          "entries": [
+            {
+              "heading": "Fragen zum Datenschutz",
+              "emailLabel": "E-Mail",
+              "email": "privacy@bendgamine.com",
+              "note": "Antwort innerhalb von 48 Stunden"
+            },
+            {
+              "heading": "Datenschutzbeauftragter (EU)",
+              "emailLabel": "E-Mail",
+              "email": "dpo@bendgamine.com"
+            },
+            {
+              "heading": "Aufsichtsbehörde",
+              "text": "EU-Bürger können eine Beschwerde bei ihrer örtlichen Datenschutzbehörde einreichen."
+            },
+            {
+              "heading": "Unternehmen",
+              "text": "Bendgamine Inc. – [Firmenadresse] – [Registrierungsdetails]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "transparency",
+      "title": "Transparenzbericht",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Wir glauben an Transparenz in Bezug auf unsere Datenschutzpraktiken. Jahreszahlen (noch zu veröffentlichen):"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Datenanfragen der Regierung: –",
+            "Benutzerdatenanfragen: —",
+            "Kontolöschungen: —",
+            "Datenschutzverletzungen: Keine gemeldet",
+            "Betroffene Benutzer: —",
+            "Durchschnittliche Lösungszeit: –"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Wenn Sie Fragen zu einem Abschnitt haben, kontaktieren Sie uns unter Privacy@bendgamine.com. Ihre Privatsphäre ist für Ihre persönliche Weiterentwicklung von grundlegender Bedeutung – wir verpflichten uns, sie bei jedem Schritt zu schützen."
+        }
+      ]
+    }
+  ],
+  "footer": "© Bendgamine. Alle Rechte vorbehalten."
+}

@@ -3,6 +3,15 @@
   "private": true,
   "scripts": {
     "lintFormat": "node -e \"process.exit(0)\"",
-    "format": "node -e \"process.exit(0)\""
+    "format": "node -e \"process.exit(0)\"",
+    "i18n:maps": "node scripts/generate-maps.mjs",
+    "i18n:patch": "node scripts/patch-maps.mjs",
+    "i18n:build": "node scripts/build-locales.mjs",
+    "i18n:validate": "node scripts/validate-locales.mjs",
+    "i18n": "npm run i18n:maps && npm run i18n:build",
+    "i18n:fix": "npm run i18n:patch && npm run i18n:build && npm run i18n:validate"
+  },
+  "devDependencies": {
+    "google-translate-api-x": "^10.7.3"
   }
 }
