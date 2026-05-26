@@ -1,0 +1,503 @@
+{
+  "meta": {
+    "title": "Gizlilik Politikası — Bendgamine",
+    "lang": "tr"
+  },
+  "hero": {
+    "title": "Gizlilik Politikası — Bendgamine",
+    "effective": "Yürürlük tarihi: 25 Mayıs 2026",
+    "updated": "Son güncelleme: 25 Mayıs 2026"
+  },
+  "toc": {
+    "title": "Bu sayfada"
+  },
+  "sections": [
+    {
+      "id": "intro",
+      "title": "giriiş",
+      "icon": "",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Bendgamine (\"biz\", \"bizim\" veya \"bize\") gizliliğinizi korumaya kararlıdır. Bu Gizlilik Politikası, erdem geliştirme uygulamamızı ve web sitemizi (toplu olarak \"Hizmet\") kullandığınızda bilgilerinizi nasıl topladığımızı, kullandığımızı, ifşa ettiğimizi ve koruduğumuzu açıklamaktadır."
+        },
+        {
+          "type": "p",
+          "text": "Bendgamine'i kullanarak bilgilerin bu politikaya uygun olarak toplanmasını ve kullanılmasını kabul etmiş olursunuz."
+        }
+      ]
+    },
+    {
+      "id": "collect",
+      "title": "Topladığımız Bilgiler",
+      "blocks": [
+        {
+          "type": "h3",
+          "text": "Sağladığınız kişisel bilgiler"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "Hesap bilgileri",
+              "items": [
+                "Ad (ad ve soyadı)",
+                "E-posta adresi",
+                "Şifre (şifreli)",
+                "Profil resmi (isteğe bağlı)",
+                "Saat dilimi ve dil tercihleri"
+              ]
+            },
+            {
+              "label": "Fazilet geliştirme verileri",
+              "items": [
+                "Oluşturduğunuz projeler",
+                "Seçtiğiniz ve özelleştirdiğiniz erdemler",
+                "Günlük işlemler ve izleme verileri",
+                "Öz değerlendirme puanları ve notları",
+                "Hedef belirleme ve ilerleme verileri",
+                "Kullanım kalıpları ve tercihler"
+              ]
+            },
+            {
+              "label": "Ödeme bilgileri (Premium kullanıcılar)",
+              "items": [
+                "Fatura Adresi",
+                "Ödeme yöntemi bilgileri (Stripe tarafından işlenir)",
+                "Abonelik ve fatura geçmişi"
+              ]
+            },
+            {
+              "label": "İletişim verileri",
+              "items": [
+                "Destek iletişimi",
+                "Geri bildirim ve anket yanıtları",
+                "Bülten abonelikleri (eğer dahil edildiyse)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Otomatik olarak toplanan bilgiler"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "Kullanım analitiği",
+              "items": [
+                "Uygulama kullanım istatistikleri",
+                "Özellik etkileşimi verileri",
+                "Performans metrikleri",
+                "Hata günlükleri ve kilitlenme raporları"
+              ]
+            },
+            {
+              "label": "Cihaz bilgileri",
+              "items": [
+                "Cihaz türü ve işletim sistemi",
+                "Tarayıcı türü ve sürümü",
+                "IP adresi (30 gün sonra anonimleştirilir)",
+                "Genel konum (ülke/bölge düzeyinde)"
+              ]
+            },
+            {
+              "label": "Çerezler ve benzeri teknolojiler",
+              "items": [
+                "Oturum çerezleri (temel işlevsellik)",
+                "Tercih çerezleri (ayarlar ve dil)",
+                "Analytics çerezleri (izin alınarak)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "use",
+      "title": "Bilgilerinizi Nasıl Kullanıyoruz",
+      "blocks": [
+        {
+          "type": "h3",
+          "text": "Birincil amaçlar"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "Temel işlevsellik",
+              "items": [
+                "Erdem geliştirme takibi ve analitiği sağlayın",
+                "Kişiselleştirilmiş yapay zeka önerileri oluşturun",
+                "Verileri cihazlarınız arasında senkronize edin",
+                "İlerleme takibini ve raporlamayı etkinleştirin"
+              ]
+            },
+            {
+              "label": "Hesap yönetimi",
+              "items": [
+                "Hesabınızı oluşturun ve koruyun",
+                "Hizmete erişimi doğrulayın",
+                "Abonelik ödemelerini işleyin",
+                "Müşteri desteği sağlayın"
+              ]
+            },
+            {
+              "label": "Hizmet iyileştirme",
+              "items": [
+                "Özellikleri geliştirmek için kullanım modellerini analiz edin",
+                "Yeni işlevler geliştirin",
+                "Performansı ve kullanıcı deneyimini optimize edin",
+                "Erdem gelişiminin etkililiği üzerine araştırma yapmak"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Yapay zeka destekli özellikler"
+        },
+        {
+          "type": "p",
+          "text": "Erdem izleme verileriniz kişiselleştirilmiş içgörüler oluşturmak için işlenir. Yapay zeka analizi, kalıpları belirlemeye ve iyileştirmeler önermeye yardımcı olur. Öneriler bireysel ilerlemenize ve hedeflerinize dayanmaktadır. Anonimleştirilmiş kalıpların ötesinde hiçbir kişisel veri harici yapay zeka sağlayıcılarıyla paylaşılmaz."
+        },
+        {
+          "type": "h3",
+          "text": "İletişim"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "Servis iletişimi",
+              "items": [
+                "Hesapla ilgili bildirimler",
+                "Önemli hizmet güncellemeleri",
+                "Güvenlik uyarıları",
+                "Abonelik ve fatura bilgileri"
+              ]
+            },
+            {
+              "label": "İsteğe bağlı iletişim",
+              "items": [
+                "Haftalık ilerleme raporları (etkinse)",
+                "Franklin'in yöntemi hakkında eğitici içerik",
+                "Ürün güncellemeleri ve yeni özellikler",
+                "Araştırmaya katılım davetleri"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "legal-basis",
+      "title": "İşlemenin Yasal Dayanağı (GDPR)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Kişisel verilerinizi aşağıdakilere dayanarak işleriz:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Sözleşme performansı: hesap yönetimi, hizmet sunumu, ödeme işlemleri",
+            "Meşru menfaat: hizmet iyileştirme, analiz, yapay zeka önerileri",
+            "Onay: pazarlama iletişimleri, isteğe bağlı özellikler, analiz çerezleri",
+            "Yasal yükümlülük: vergi kayıtları, yasal uyumluluk, veri koruma"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sharing",
+      "title": "Bilgi Paylaşımı ve İfşası",
+      "blocks": [
+        {
+          "type": "h3",
+          "text": "Verilerinizi satmıyoruz"
+        },
+        {
+          "type": "p",
+          "text": "Bendgamine kişisel bilgilerinizi üçüncü taraflara satmaz, takas etmez veya kiralamaz."
+        },
+        {
+          "type": "h3",
+          "text": "Hizmet sunumu için sınırlı paylaşım"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Barındırma: Güvenli veri depolama için AWS/DigitalOcean",
+            "Ödemeler: Ödeme işlemleri için şerit",
+            "E-posta: İşlemsel e-postalar için SendGrid",
+            "Analytics: Yalnızca şirket içinde barındırılan analiz araçları",
+            "Yapay zeka hizmetleri: Öneri oluşturmak için OpenAI (yalnızca anonimleştirilmiş veriler)"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Tüm hizmet sağlayıcılar, sözleşmeye bağlı olarak verilerinizi korumak ve yalnızca belirli amaçlar için kullanmakla yükümlüdür."
+        },
+        {
+          "type": "h3",
+          "text": "Yasal gereklilikler"
+        },
+        {
+          "type": "p",
+          "text": "Kanun, mahkeme emri veya devlet kurumu tarafından gerekli görülmesi halinde veya yasal haklarımızı korumak, dolandırıcılık veya güvenlik sorunlarını araştırmak, kullanıcı güvenliğini korumak veya yasal yükümlülüklere uymak amacıyla bilgilerinizi ifşa edebiliriz."
+        },
+        {
+          "type": "h3",
+          "text": "İş transferleri"
+        },
+        {
+          "type": "p",
+          "text": "Varlıkların birleşmesi, satın alınması veya satılması durumunda bilgileriniz, aynı gizlilik korumalarına tabi olarak ticari varlıkların bir parçası olarak aktarılabilir."
+        }
+      ]
+    },
+    {
+      "id": "transfers",
+      "title": "Uluslararası Veri Aktarımları",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Birincil veri konumu: Avrupa Birliği (GDPR uyumluluğu)",
+            "İkincil işleme: Amerika Birleşik Devletleri (uygun önlemlerle)",
+            "Tedbirler: Standart Sözleşme Maddeleri, yeterlilik kararları veya eşdeğer korumalar"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "security",
+      "title": "Veri Güvenliği",
+      "blocks": [
+        {
+          "type": "h3",
+          "text": "Teknik korumalar"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Aktarım sırasında (TLS 1.3) ve beklemedeyken (AES-256) şifrelenen veriler",
+            "Hassas bilgiler için veritabanı şifrelemesi",
+            "Yöneticiler için çok faktörlü kimlik doğrulama ve rol tabanlı erişim",
+            "Düzenli güvenlik denetimleri, sızma testleri ve güvenlik açığı taraması"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Organizasyonel korumalar"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Veri minimizasyonu: yalnızca gerekli bilgileri topluyoruz",
+            "Gizlilik ve güvenlik konusunda personel eğitimi",
+            "Veri ihlallerine yönelik olay müdahale prosedürleri",
+            "Ürün geliştirmede tasarım gereği gizlilik"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rights",
+      "title": "Gizlilik Haklarınız",
+      "blocks": [
+        {
+          "type": "h3",
+          "text": "GDPR hakları (AB'de ikamet edenler)"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Erişim: kişisel verilerinizin bir kopyasını isteyin",
+            "Düzeltme: Yanlış veya eksik verileri düzeltin",
+            "Silme: silme talebi (\"unutulma hakkı\")",
+            "Taşınabilirlik: verileri makine tarafından okunabilir bir biçimde alın",
+            "Kısıtlama: verilerinizi işleme şeklimizi sınırlandırın",
+            "İtiraz: Meşru menfaatlere dayalı olarak işlemeye itiraz",
+            "Rızayı geri çekme: isteğe bağlı işlemlere ilişkin izni kaldırma"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Kaliforniya gizlilik hakları (CCPA)"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Hangi kişisel bilgileri topladığımızı ve bunların nasıl kullanıldığını bilin",
+            "Sil: kişisel bilgilerinizin silinmesini isteyin",
+            "Kişisel bilgilerin satışından vazgeçme (veri satmıyoruz)",
+            "Ayrımcılık yapmama: gizlilik tercihlerine bakılmaksızın eşit hizmet"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Haklarınızı nasıl kullanabilirsiniz?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Uygulama içi: gizlilik ayarlarını ve veri dışa aktarma özelliklerini kullanın",
+            "E-posta: gizlilik@bendgamine.com",
+            "Yanıt süresi: 30 gün (GDPR) veya 45 gün (CCPA) içinde",
+            "Güvenlik amacıyla kimliğinizi doğrulayabiliriz"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "retention",
+      "title": "Veri Saklama",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Hesap verileri: hesabınız etkin olduğu sürece saklanır",
+            "Fazilet geliştirme verileri: geçmiş izleme ve analiz için saklanır",
+            "Etkin olmayan hesaplar: 3 yıl boyunca etkinlik olmaması durumunda silinir",
+            "Destek iletişimleri: 2 yıl süreyle saklanır",
+            "Analitik verileri: anonimleştirilmiş ve toplulaştırılmış, 5 yıl süreyle saklanır",
+            "Yasal gereklilikler: Bazı veriler uyumluluk amacıyla daha uzun süre saklanabilir"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Silme işlemi"
+        },
+        {
+          "type": "list",
+          "items": [
+            "30 gün içerisinde aktif sistemlerden kaldırılır",
+            "90 gün içinde yedeklemelerden kaldırıldı",
+            "Analitikte 30 gün içinde anonimleştirilir"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "children",
+      "title": "Çocukların Gizliliği",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Bendgamine, 16 (AB) veya 13 (ABD) yaşın altındaki çocuklara yönelik değildir. Çocuklardan bilerek kişisel bilgi toplamıyoruz. Bir çocuğun kişisel bilgi verdiğini fark edersek, bu bilgiyi derhal sileriz."
+        }
+      ]
+    },
+    {
+      "id": "cookies",
+      "title": "Çerezler ve İzleme",
+      "blocks": [
+        {
+          "type": "h3",
+          "text": "Temel çerezler"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Kimlik doğrulama: Oturumunuzun açık kalmasını sağlayın",
+            "Güvenlik: dolandırıcılığa karşı koruma",
+            "İşlevsellik: tercihlerinizi hatırlayın"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "İsteğe bağlı çerezler (izin alınarak)"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Analitik: Hizmetin nasıl kullanıldığını anlayın",
+            "Performans: yükleme sürelerini ve işlevselliği optimize edin"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Çerezleri tarayıcı ayarları, çerez tercih merkezimiz ve analizlere yönelik devre dışı bırakma mekanizmaları aracılığıyla kontrol edebilirsiniz."
+        }
+      ]
+    },
+    {
+      "id": "changes",
+      "title": "Bu Politikadaki Değişiklikler",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Uygulamalarımızdaki, yasal veya düzenleyici gerekliliklerdeki veya yeni özellik ve hizmetlerimizdeki değişiklikleri yansıtacak şekilde bu Gizlilik Politikasını güncelleyebiliriz."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Önemli değişiklikler için e-posta bildirimi",
+            "Uygulama içi bildirim",
+            "\"Son değiştirilme\" tarihi güncellendi",
+            "Önemli değişiklikler için 30 günlük bildirim süresi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "title": "İletişim Bilgileri",
+      "blocks": [
+        {
+          "type": "contact",
+          "entries": [
+            {
+              "heading": "Gizlilik soruları",
+              "emailLabel": "E-posta",
+              "email": "privacy@bendgamine.com",
+              "note": "48 saat içinde yanıt"
+            },
+            {
+              "heading": "Veri Koruma Görevlisi (AB)",
+              "emailLabel": "E-posta",
+              "email": "dpo@bendgamine.com"
+            },
+            {
+              "heading": "Denetim otoritesi",
+              "text": "AB'de ikamet edenler yerel veri koruma makamlarına şikayette bulunabilirler."
+            },
+            {
+              "heading": "Şirket",
+              "text": "Bendgamine Inc. — [Şirket adresi] — [Kayıt ayrıntıları]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "transparency",
+      "title": "Şeffaflık Raporu",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Gizlilik uygulamalarımız konusunda şeffaflığa inanıyoruz. Yıllık rakamlar (yayınlanacak):"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Devlet veri talepleri: —",
+            "Kullanıcı verileri talepleri: —",
+            "Hesap silmeler: —",
+            "Veri ihlalleri: Bildirilmedi",
+            "Etkilenen kullanıcılar: —",
+            "Ortalama çözüm süresi: —"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Herhangi bir bölümle ilgili sorularınız varsa, bizimle gizlilik@bendgamine.com adresinden iletişime geçin. Gizliliğiniz kişisel gelişim yolculuğunuzun temelidir; onu yolun her adımında korumaya kararlıyız."
+        }
+      ]
+    }
+  ],
+  "footer": "© Bendgamine. Her hakkı saklıdır."
+}

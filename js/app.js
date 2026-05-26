@@ -1,19 +1,40 @@
 const DEFAULT_LANG = 'en';
-const SUPPORTED_LANGS = ['en', 'ru'];
 const STORAGE_KEY = 'bendgamine-privacy-lang';
 
-let currentLocale = null;
+let manifest = null;
+let supportedLangs = [];
+let langByCode = new Map();
+
+async function loadManifest() {
+  const url = new URL('locales/manifest.json', window.location.href).href;
+  const response = await fetch(url);
+  if (!response.ok) {
+    throw new Error('Failed to load language manifest');
+  }
+  manifest = await response.json();
+  supportedLangs = manifest.languages.map((l) => l.code);
+  langByCode = new Map(manifest.languages.map((l) => [l.code, l]));
+}
 
 function detectLang() {
+  const params = new URLSearchParams(window.location.search);
+  const fromUrl = params.get('lang');
+  if (fromUrl && supportedLangs.includes(fromUrl)) {
+    return fromUrl;
+  }
   const stored = localStorage.getItem(STORAGE_KEY);
-  if (stored && SUPPORTED_LANGS.includes(stored)) {
+  if (stored && supportedLangs.includes(stored)) {
     return stored;
   }
-  const browser = (navigator.language || '').slice(0, 2).toLowerCase();
-  if (SUPPORTED_LANGS.includes(browser)) {
+  const browser = (navigator.language || '').toLowerCase();
+  const primary = browser.split('-')[0];
+  if (supportedLangs.includes(browser)) {
     return browser;
   }
-  return DEFAULT_LANG;
+  if (supportedLangs.includes(primary)) {
+    return primary;
+  }
+  return manifest?.default || DEFAULT_LANG;
 }
 
 function localeUrl(lang) {
@@ -34,21 +55,20 @@ function escapeHtml(text) {
   return div.innerHTML;
 }
 
-function renderList(items, nested = false) {
+function renderList(items) {
   if (!items?.length) {
     return '';
   }
-  const tag = nested ? 'ul' : 'ul';
   const lis = items
     .map((item) => {
       if (typeof item === 'string') {
         return `<li>${escapeHtml(item)}</li>`;
       }
-      const sub = item.items ? renderList(item.items, true) : '';
+      const sub = item.items ? renderList(item.items) : '';
       return `<li><strong>${escapeHtml(item.label)}</strong>${sub}</li>`;
     })
     .join('');
-  return `<${tag}>${lis}</${tag}>`;
+  return `<ul>${lis}</ul>`;
 }
 
 function renderBlock(block) {
@@ -62,8 +82,22 @@ function renderBlock(block) {
     return `<h3>${escapeHtml(block.text)}</h3>`;
   }
   if (block.type === 'contact') {
-    return block.lines
-      .map((line) => `<p>${line}</p>`)
+    return (block.entries || [])
+      .map((entry) => {
+        let html = `<p><strong>${escapeHtml(entry.heading)}</strong></p>`;
+        if (entry.email) {
+          const label = entry.emailLabel ? `${escapeHtml(entry.emailLabel)}: ` : '';
+          html += `<p>${label}<a href="mailto:${escapeHtml(entry.email)}">${escapeHtml(entry.email)}</a>`;
+          if (entry.note) {
+            html += ` (${escapeHtml(entry.note)})`;
+          }
+          html += '</p>';
+        }
+        if (entry.text) {
+          html += `<p>${escapeHtml(entry.text)}</p>`;
+        }
+        return html;
+      })
       .join('');
   }
   return '';
@@ -72,10 +106,9 @@ function renderBlock(block) {
 function renderSection(section) {
   const blocks = (section.blocks || []).map(renderBlock).join('');
   const id = section.id ? ` id="${section.id}"` : '';
-  const icon = section.icon ? `${section.icon} ` : '';
   return `
     <section class="policy-section"${id}>
-      <h2>${icon}${escapeHtml(section.title)}</h2>
+      <h2>${escapeHtml(section.title)}</h2>
       ${blocks}
     </section>
   `;
@@ -84,10 +117,7 @@ function renderSection(section) {
 function renderToc(sections, tocTitle) {
   const links = sections
     .filter((s) => s.id)
-    .map(
-      (s) =>
-        `<li><a href="#${s.id}">${escapeHtml(s.title.replace(/^[^\s]+\s/, ''))}</a></li>`
-    )
+    .map((s) => `<li><a href="#${s.id}">${escapeHtml(s.title)}</a></li>`)
     .join('');
   return `
     <nav class="toc" aria-label="${escapeHtml(tocTitle)}">
@@ -99,40 +129,76 @@ function renderToc(sections, tocTitle) {
 
 function renderPage(locale) {
   const { meta, hero, toc, sections, footer } = locale;
-  document.documentElement.lang = meta.lang;
-  document.title = meta.title;
+  const langInfo = langByCode.get(meta.lang);
+  const rtl = langInfo?.rtl === true;
 
-  const tocHtml = renderToc(sections, toc.title);
-  const sectionsHtml = sections.map(renderSection).join('');
+  document.documentElement.lang = meta.lang;
+  document.documentElement.dir = rtl ? 'rtl' : 'ltr';
+  document.title = meta.title;
 
   document.getElementById('app').innerHTML = `
     <article class="hero">
       <h1>${escapeHtml(hero.title)}</h1>
       <p class="dates">${escapeHtml(hero.effective)} · ${escapeHtml(hero.updated)}</p>
     </article>
-    ${tocHtml}
-    ${sectionsHtml}
+    ${renderToc(sections, toc.title)}
+    ${sections.map(renderSection).join('')}
   `;
 
   document.getElementById('footer-text').textContent = footer;
 }
 
-function setActiveLangButton(lang) {
-  document.querySelectorAll('.lang-switch button').forEach((btn) => {
-    btn.classList.toggle('active', btn.dataset.lang === lang);
-  });
+function buildLangSelect(currentLang) {
+  const select = document.getElementById('lang-select');
+  select.innerHTML = manifest.languages
+    .map(
+      (l) =>
+        `<option value="${l.code}"${l.code === currentLang ? ' selected' : ''}>${escapeHtml(l.native)}</option>`
+    )
+    .join('');
+  select.value = currentLang;
+}
+
+function updateUrlLang(lang) {
+  const url = new URL(window.location.href);
+  url.searchParams.set('lang', lang);
+  window.history.replaceState({}, '', url);
 }
 
 async function setLanguage(lang) {
-  if (!SUPPORTED_LANGS.includes(lang)) {
-    return;
+  if (!supportedLangs.includes(lang)) {
+    lang = manifest.default || DEFAULT_LANG;
   }
-  setActiveLangButton(lang);
+
+  buildLangSelect(lang);
   localStorage.setItem(STORAGE_KEY, lang);
+  updateUrlLang(lang);
 
   try {
-    currentLocale = await loadLocale(lang);
-    renderPage(currentLocale);
+    const locale = await loadLocale(lang);
+    renderPage(locale);
+  } catch (err) {
+    if (lang !== DEFAULT_LANG) {
+      await setLanguage(manifest.default || DEFAULT_LANG);
+      return;
+    }
+    document.getElementById('app').innerHTML =
+      '<p class="loading">Failed to load content. Please refresh the page.</p>';
+    console.error(err);
+  }
+}
+
+function initLangSelect() {
+  document.getElementById('lang-select').addEventListener('change', (e) => {
+    setLanguage(e.target.value);
+  });
+}
+
+async function init() {
+  try {
+    await loadManifest();
+    initLangSelect();
+    await setLanguage(detectLang());
   } catch (err) {
     document.getElementById('app').innerHTML =
       '<p class="loading">Failed to load content. Please refresh the page.</p>';
@@ -140,19 +206,4 @@ async function setLanguage(lang) {
   }
 }
 
-function initLangSwitch() {
-  document.querySelectorAll('.lang-switch button').forEach((btn) => {
-    btn.addEventListener('click', () => setLanguage(btn.dataset.lang));
-  });
-}
-
-function initHashSync() {
-  const lang = new URLSearchParams(window.location.search).get('lang');
-  if (lang && SUPPORTED_LANGS.includes(lang)) {
-    localStorage.setItem(STORAGE_KEY, lang);
-  }
-}
-
-initHashSync();
-initLangSwitch();
-setLanguage(detectLang());
+init();

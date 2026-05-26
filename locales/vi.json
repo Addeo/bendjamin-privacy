@@ -1,0 +1,503 @@
+{
+  "meta": {
+    "title": "Chính sách quyền riêng tư — Bendgamine",
+    "lang": "vi"
+  },
+  "hero": {
+    "title": "Chính sách quyền riêng tư — Bendgamine",
+    "effective": "Ngày có hiệu lực: 25/05/2026",
+    "updated": "Cập nhật lần cuối: ngày 25 tháng 5 năm 2026"
+  },
+  "toc": {
+    "title": "Trên trang này"
+  },
+  "sections": [
+    {
+      "id": "intro",
+      "title": "Giới thiệu",
+      "icon": "",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Bendgamine (\"chúng tôi\" hoặc \"của chúng tôi\") cam kết bảo vệ quyền riêng tư của bạn. Chính sách quyền riêng tư này giải thích cách chúng tôi thu thập, sử dụng, tiết lộ và bảo vệ thông tin của bạn khi bạn sử dụng ứng dụng và trang web phát triển đức hạnh của chúng tôi (gọi chung là \"Dịch vụ\")."
+        },
+        {
+          "type": "p",
+          "text": "Bằng cách sử dụng Bendgamine, bạn đồng ý với việc thu thập và sử dụng thông tin theo chính sách này."
+        }
+      ]
+    },
+    {
+      "id": "collect",
+      "title": "Thông tin chúng tôi thu thập",
+      "blocks": [
+        {
+          "type": "h3",
+          "text": "Thông tin cá nhân bạn cung cấp"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "Thông tin tài khoản",
+              "items": [
+                "Tên (tên và họ)",
+                "Địa chỉ email",
+                "Mật khẩu (được mã hóa)",
+                "Ảnh hồ sơ (tùy chọn)",
+                "Tùy chọn múi giờ và ngôn ngữ"
+              ]
+            },
+            {
+              "label": "Dữ liệu phát triển đức hạnh",
+              "items": [
+                "Dự án bạn tạo",
+                "Những đức tính bạn chọn và tùy chỉnh",
+                "Hành động hàng ngày và dữ liệu theo dõi",
+                "Điểm tự đánh giá và ghi chú",
+                "Dữ liệu tiến độ và thiết lập mục tiêu",
+                "Mô hình sử dụng và sở thích"
+              ]
+            },
+            {
+              "label": "Thông tin thanh toán (Người dùng cao cấp)",
+              "items": [
+                "Địa chỉ thanh toán",
+                "Thông tin phương thức thanh toán (được xử lý bởi Stripe)",
+                "Lịch sử đăng ký và thanh toán"
+              ]
+            },
+            {
+              "label": "Dữ liệu truyền thông",
+              "items": [
+                "Hỗ trợ truyền thông",
+                "Phản hồi và phản hồi khảo sát",
+                "Đăng ký bản tin (nếu chọn tham gia)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Thông tin được thu thập tự động"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "Phân tích sử dụng",
+              "items": [
+                "Thống kê sử dụng ứng dụng",
+                "Dữ liệu tương tác tính năng",
+                "Số liệu hiệu suất",
+                "Nhật ký lỗi và báo cáo sự cố"
+              ]
+            },
+            {
+              "label": "Thông tin thiết bị",
+              "items": [
+                "Loại thiết bị và hệ điều hành",
+                "Loại và phiên bản trình duyệt",
+                "Địa chỉ IP (ẩn danh sau 30 ngày)",
+                "Vị trí chung (cấp quốc gia/khu vực)"
+              ]
+            },
+            {
+              "label": "Cookie và các công nghệ tương tự",
+              "items": [
+                "Cookie phiên (chức năng thiết yếu)",
+                "Cookie ưu tiên (cài đặt và ngôn ngữ)",
+                "Cookie phân tích (có sự đồng ý)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "use",
+      "title": "Cách chúng tôi sử dụng thông tin của bạn",
+      "blocks": [
+        {
+          "type": "h3",
+          "text": "Mục đích chính"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "Chức năng cốt lõi",
+              "items": [
+                "Cung cấp khả năng theo dõi và phân tích phát triển đức hạnh",
+                "Tạo đề xuất AI được cá nhân hóa",
+                "Đồng bộ hóa dữ liệu trên các thiết bị của bạn",
+                "Bật tính năng theo dõi và báo cáo tiến độ"
+              ]
+            },
+            {
+              "label": "Quản lý tài khoản",
+              "items": [
+                "Tạo và duy trì tài khoản của bạn",
+                "Xác thực quyền truy cập vào Dịch vụ",
+                "Quy trình thanh toán đăng ký",
+                "Cung cấp hỗ trợ khách hàng"
+              ]
+            },
+            {
+              "label": "Cải tiến dịch vụ",
+              "items": [
+                "Phân tích mô hình sử dụng để cải thiện tính năng",
+                "Phát triển chức năng mới",
+                "Tối ưu hóa hiệu suất và trải nghiệm người dùng",
+                "Tiến hành nghiên cứu về hiệu quả phát triển đức tính"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Các tính năng hỗ trợ AI"
+        },
+        {
+          "type": "p",
+          "text": "Dữ liệu theo dõi đức hạnh của bạn được xử lý để tạo ra những hiểu biết cá nhân hóa. Phân tích AI giúp xác định các mẫu và đề xuất cải tiến. Các khuyến nghị dựa trên tiến độ và mục tiêu cá nhân của bạn. Không có dữ liệu cá nhân nào được chia sẻ với các nhà cung cấp AI bên ngoài ngoài các mẫu ẩn danh."
+        },
+        {
+          "type": "h3",
+          "text": "Giao tiếp"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "Truyền thông dịch vụ",
+              "items": [
+                "Thông báo liên quan đến tài khoản",
+                "Cập nhật dịch vụ quan trọng",
+                "Cảnh báo bảo mật",
+                "Thông tin đăng ký và thanh toán"
+              ]
+            },
+            {
+              "label": "Truyền thông tùy chọn",
+              "items": [
+                "Báo cáo tiến độ hàng tuần (nếu được bật)",
+                "Nội dung giáo dục về phương pháp Franklin",
+                "Cập nhật sản phẩm và tính năng mới",
+                "Thư mời tham gia nghiên cứu"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "legal-basis",
+      "title": "Cơ sở pháp lý để xử lý (GDPR)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Chúng tôi xử lý dữ liệu cá nhân của bạn dựa trên:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Thực hiện hợp đồng: quản lý tài khoản, cung cấp dịch vụ, xử lý thanh toán",
+            "Lợi ích chính đáng: cải tiến dịch vụ, phân tích, đề xuất AI",
+            "Sự đồng ý: thông tin tiếp thị, tính năng tùy chọn, cookie phân tích",
+            "Nghĩa vụ pháp lý: hồ sơ thuế, tuân thủ pháp luật, bảo vệ dữ liệu"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sharing",
+      "title": "Chia sẻ và tiết lộ thông tin",
+      "blocks": [
+        {
+          "type": "h3",
+          "text": "Chúng tôi không bán dữ liệu của bạn"
+        },
+        {
+          "type": "p",
+          "text": "Bendgamine không bán, trao đổi hoặc cho thuê thông tin cá nhân của bạn cho bên thứ ba."
+        },
+        {
+          "type": "h3",
+          "text": "Chia sẻ hạn chế để cung cấp dịch vụ"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Lưu trữ: AWS/DigitalOcean để lưu trữ dữ liệu an toàn",
+            "Thanh toán: Sọc để xử lý thanh toán",
+            "Email: SendGrid cho email giao dịch",
+            "Phân tích: Chỉ các công cụ phân tích tự lưu trữ",
+            "Dịch vụ AI: OpenAI để tạo đề xuất (chỉ dữ liệu ẩn danh)"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Tất cả các nhà cung cấp dịch vụ đều bị ràng buộc theo hợp đồng để bảo vệ dữ liệu của bạn và chỉ sử dụng dữ liệu đó cho các mục đích được chỉ định."
+        },
+        {
+          "type": "h3",
+          "text": "Yêu cầu pháp lý"
+        },
+        {
+          "type": "p",
+          "text": "Chúng tôi có thể tiết lộ thông tin của bạn nếu luật pháp, lệnh của tòa án hoặc cơ quan chính phủ yêu cầu hoặc để bảo vệ các quyền hợp pháp của chúng tôi, điều tra các vấn đề gian lận hoặc bảo mật, bảo vệ sự an toàn của người dùng hoặc tuân thủ các nghĩa vụ pháp lý."
+        },
+        {
+          "type": "h3",
+          "text": "Chuyển nhượng kinh doanh"
+        },
+        {
+          "type": "p",
+          "text": "Trong trường hợp sáp nhập, mua lại hoặc bán tài sản, thông tin của bạn có thể được chuyển giao như một phần tài sản kinh doanh, tuân theo các biện pháp bảo vệ quyền riêng tư tương tự."
+        }
+      ]
+    },
+    {
+      "id": "transfers",
+      "title": "Chuyển dữ liệu quốc tế",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Vị trí dữ liệu chính: Liên minh Châu Âu (tuân thủ GDPR)",
+            "Xử lý thứ cấp: Hoa Kỳ (với các biện pháp bảo vệ thích hợp)",
+            "Các biện pháp bảo vệ: Các điều khoản hợp đồng tiêu chuẩn, các quyết định phù hợp hoặc các biện pháp bảo vệ tương đương"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "security",
+      "title": "Bảo mật dữ liệu",
+      "blocks": [
+        {
+          "type": "h3",
+          "text": "Biện pháp bảo vệ kỹ thuật"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Dữ liệu được mã hóa khi truyền (TLS 1.3) và khi lưu trữ (AES-256)",
+            "Mã hóa cơ sở dữ liệu cho thông tin nhạy cảm",
+            "Xác thực đa yếu tố và quyền truy cập dựa trên vai trò dành cho quản trị viên",
+            "Kiểm tra bảo mật thường xuyên, kiểm tra thâm nhập và quét lỗ hổng"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Các biện pháp bảo vệ tổ chức"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Giảm thiểu dữ liệu: chúng tôi chỉ thu thập thông tin cần thiết",
+            "Đào tạo nhân viên về quyền riêng tư và bảo mật",
+            "Quy trình ứng phó sự cố đối với vi phạm dữ liệu",
+            "Quyền riêng tư theo thiết kế trong phát triển sản phẩm"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rights",
+      "title": "Quyền riêng tư của bạn",
+      "blocks": [
+        {
+          "type": "h3",
+          "text": "Quyền GDPR (cư dân EU)"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Truy cập: yêu cầu bản sao dữ liệu cá nhân của bạn",
+            "Chỉnh sửa: sửa dữ liệu không chính xác hoặc không đầy đủ",
+            "Xóa: yêu cầu xóa (\"quyền được lãng quên\")",
+            "Tính di động: nhận dữ liệu ở định dạng máy có thể đọc được",
+            "Hạn chế: giới hạn cách chúng tôi xử lý dữ liệu của bạn",
+            "Phản đối: phản đối việc xử lý dựa trên lợi ích hợp pháp",
+            "Rút lại sự đồng ý: xóa sự đồng ý để xử lý tùy chọn"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Quyền riêng tư của California (CCPA)"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Biết thông tin cá nhân nào chúng tôi thu thập và cách sử dụng thông tin đó",
+            "Xóa: yêu cầu xóa thông tin cá nhân của bạn",
+            "Từ chối bán thông tin cá nhân (chúng tôi không bán dữ liệu)",
+            "Không phân biệt đối xử: dịch vụ bình đẳng bất kể lựa chọn quyền riêng tư"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Cách thực hiện quyền của bạn"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Trong ứng dụng: sử dụng cài đặt quyền riêng tư và tính năng xuất dữ liệu",
+            "Email: Privacy@bendgamine.com",
+            "Thời gian phản hồi: trong vòng 30 ngày (GDPR) hoặc 45 ngày (CCPA)",
+            "Chúng tôi có thể xác minh danh tính của bạn để bảo mật"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "retention",
+      "title": "Lưu giữ dữ liệu",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Dữ liệu tài khoản: được giữ lại trong khi tài khoản của bạn đang hoạt động",
+            "Dữ liệu phát triển đức tính: được giữ lại để theo dõi và phân tích lịch sử",
+            "Tài khoản không hoạt động: bị xóa sau 3 năm không hoạt động",
+            "Hỗ trợ thông tin liên lạc: được giữ lại trong 2 năm",
+            "Dữ liệu phân tích: ẩn danh và tổng hợp, được lưu giữ trong 5 năm",
+            "Yêu cầu pháp lý: một số dữ liệu có thể được lưu giữ lâu hơn để tuân thủ"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Quá trình xóa"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Bị xóa khỏi hệ thống đang hoạt động trong vòng 30 ngày",
+            "Đã xóa khỏi bản sao lưu trong vòng 90 ngày",
+            "Ẩn danh trong phân tích trong vòng 30 ngày"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "children",
+      "title": "Quyền riêng tư của trẻ em",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Bendgamine không dành cho trẻ em dưới 16 tuổi (EU) hoặc 13 tuổi (Mỹ). Chúng tôi không cố ý thu thập thông tin cá nhân từ trẻ em. Nếu chúng tôi biết rằng một đứa trẻ đã cung cấp thông tin cá nhân, chúng tôi sẽ xóa thông tin đó ngay lập tức."
+        }
+      ]
+    },
+    {
+      "id": "cookies",
+      "title": "Cookie và theo dõi",
+      "blocks": [
+        {
+          "type": "h3",
+          "text": "Cookie thiết yếu"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Xác thực: giữ cho bạn đăng nhập",
+            "Bảo mật: bảo vệ chống gian lận",
+            "Chức năng: ghi nhớ sở thích của bạn"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Cookie tùy chọn (có sự đồng ý)"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Phân tích: hiểu cách sử dụng Dịch vụ",
+            "Hiệu suất: tối ưu hóa thời gian tải và chức năng"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Bạn có thể kiểm soát cookie thông qua cài đặt trình duyệt, trung tâm tùy chọn cookie của chúng tôi và cơ chế chọn không tham gia phân tích."
+        }
+      ]
+    },
+    {
+      "id": "changes",
+      "title": "Những thay đổi đối với Chính sách này",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Chúng tôi có thể cập nhật Chính sách quyền riêng tư này để phản ánh những thay đổi trong thực tiễn, yêu cầu pháp lý hoặc quy định của chúng tôi hoặc các tính năng và dịch vụ mới."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Thông báo qua email về những thay đổi quan trọng",
+            "Thông báo trong ứng dụng",
+            "Ngày cập nhật \"Sửa đổi lần cuối\"",
+            "Thời hạn thông báo 30 ngày đối với những thay đổi đáng kể"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "title": "Thông tin liên hệ",
+      "blocks": [
+        {
+          "type": "contact",
+          "entries": [
+            {
+              "heading": "Câu hỏi về quyền riêng tư",
+              "emailLabel": "E-mail",
+              "email": "privacy@bendgamine.com",
+              "note": "phản hồi trong vòng 48 giờ"
+            },
+            {
+              "heading": "Cán bộ bảo vệ dữ liệu (EU)",
+              "emailLabel": "E-mail",
+              "email": "dpo@bendgamine.com"
+            },
+            {
+              "heading": "Cơ quan giám sát",
+              "text": "Cư dân EU có thể nộp đơn khiếu nại với cơ quan bảo vệ dữ liệu địa phương của họ."
+            },
+            {
+              "heading": "Công ty",
+              "text": "Bendgamine Inc. — [Địa chỉ công ty] — [Chi tiết đăng ký]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "transparency",
+      "title": "Báo cáo minh bạch",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Chúng tôi tin vào sự minh bạch trong thực tiễn bảo mật của mình. Số liệu hàng năm (sẽ công bố):"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Yêu cầu dữ liệu của chính phủ: —",
+            "Yêu cầu dữ liệu người dùng: —",
+            "Xóa tài khoản: —",
+            "Vi phạm dữ liệu: Không có báo cáo",
+            "Người dùng bị ảnh hưởng: —",
+            "Thời gian giải quyết trung bình: —"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Nếu bạn có thắc mắc về bất kỳ phần nào, hãy liên hệ với chúng tôi theo địa chỉ Privacy@bendgamine.com. Quyền riêng tư của bạn là nền tảng cho hành trình phát triển cá nhân của bạn — chúng tôi cam kết bảo vệ quyền riêng tư đó trên mọi bước đường."
+        }
+      ]
+    }
+  ],
+  "footer": "© Bendgamine. Mọi quyền được bảo lưu."
+}
