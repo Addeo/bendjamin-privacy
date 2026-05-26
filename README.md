@@ -27,12 +27,14 @@ Open [http://localhost:8080](http://localhost:8080). Locale JSON must be served 
 
 3. In the repo: **Settings → Pages**
    - **Source:** Deploy from a branch
-   - **Branch:** `main` / `/ (root)`
+   - **Branch:** `gh-pages` / `/ (root)`
    - Save
+
+   Pushes to `main` also update `gh-pages` via GitHub Actions (`.github/workflows/gh-pages.yml`).
 
 4. After a minute, the site is live at:
 
-   `https://YOUR_USER.github.io/bendjamin-privacy/`
+   `https://addeo.github.io/bendjamin-privacy/`
 
 ## Link from your app
 
@@ -40,7 +42,7 @@ Use the full URL, optionally with language:
 
 | Link | Behavior |
 |------|----------|
-| `https://YOUR_USER.github.io/bendjamin-privacy/` | Browser language or saved preference |
+| `https://addeo.github.io/bendjamin-privacy/` | Browser language or saved preference |
 | `...?lang=en` | Force English |
 | `...?lang=ru` | Force Russian |
 
@@ -48,7 +50,7 @@ Example (Angular):
 
 ```typescript
 export const PRIVACY_POLICY_URL =
-  'https://YOUR_USER.github.io/bendjamin-privacy/?lang=en';
+  'https://addeo.github.io/bendjamin-privacy/?lang=en';
 ```
 
 ## Customize
