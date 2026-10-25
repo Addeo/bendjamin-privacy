@@ -1,0 +1,11 @@
+:root{color-scheme:light;--paper:#f4ead7;--ink:#2b1d12;--muted:#6b5a4a;--gold:#b08a4a;--line:#d6c2a1}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:18px/1.75 Georgia,'Times New Roman',serif}
+header,main,footer{width:min(100% - 40px,900px);margin-inline:auto}
+header{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:28px 0;border-bottom:1px solid var(--line)}
+.brand{font-size:24px;font-weight:bold;text-decoration:none}nav{display:flex;gap:22px;flex-wrap:wrap;font:15px/1.5 system-ui,sans-serif}
+a{color:inherit;text-underline-offset:5px;overflow-wrap:anywhere}nav a{padding:8px 0;text-decoration:none}nav a[aria-current]{border-bottom:2px solid var(--gold)}a:hover{color:#7a4e2d}a:focus-visible{outline:3px solid var(--gold);outline-offset:5px}
+main{padding:48px 0 24px}h1,h2{line-height:1.15;font-weight:500;text-wrap:balance}h1{font-size:clamp(40px,7vw,70px);margin:12px 0 20px;letter-spacing:-.035em}h2{font-size:30px;margin:0 0 16px}p{margin:0 0 22px}
+section{padding:30px 0;border-top:1px solid var(--line);margin-top:30px}.eyebrow{font:12px/1.6 system-ui,sans-serif;text-transform:uppercase;letter-spacing:.12em;color:var(--muted)}.lead{font-size:24px;line-height:1.6;max-width:760px}.muted{color:var(--muted);font-size:16px}
+.callout{background:#ebdfc5;border:1px solid var(--line);border-radius:16px;padding:28px}.callout p:last-child{margin-bottom:0}.button{display:inline-block;background:var(--ink);color:var(--paper);padding:12px 24px;border-radius:8px;text-decoration:none}.button:hover{background:#4a3a2c;color:var(--paper)}
+.badge{display:inline-block;border:1px solid var(--line);border-radius:8px;padding:7px 12px;font:13px/1.7 system-ui,sans-serif}li{margin-bottom:10px}ul{padding-left:24px}footer{border-top:1px solid var(--line);padding:24px 0 36px;color:var(--muted);font-size:14px}
+@media(max-width:600px){header{align-items:flex-start;flex-direction:column;gap:8px;padding:20px 0}main{padding-top:32px}.lead{font-size:21px}.callout{padding:22px}nav{gap:20px}h2{font-size:27px}}
